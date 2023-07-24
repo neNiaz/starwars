@@ -1,0 +1,33 @@
+.item__episode {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #f75d83;
+}
+.wrapper {
+    margin-left: var(--spacing-large);
+    padding: var(--spacing-medium);
+}
+.list__container {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.list__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    color: var(--color-white);
+}
+.list__colon {
+    width: 20px;
+    font-weight: var(--font-bold);
+    text-align: center;
+}
+
+@media screen and (max-width: 1020px) {
+    .wrapper {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
